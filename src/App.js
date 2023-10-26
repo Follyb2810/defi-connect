@@ -1,13 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/Navbar'
+import Borrow from './component/Common/home/Borrow';
+import BorrowInput from './component/Common/home/BorrowInput';
+import Hero from './component/Common/home/Hero';
+import Stats from './component/Common/home/Stats';
+import WhyDefi from './component/Common/home/WhyDefi';
+
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-    <button className='btn btn-primary'>Primary Button</button>
-  </div>
+   <section>
+     <Hero/>
+     <Stats/>
+     <Borrow/>
+     <WhyDefi/>
+     <BorrowInput/>
+   </section>
   );
 }
 
